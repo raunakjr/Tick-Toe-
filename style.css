@@ -1,0 +1,142 @@
+.row1 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  /* background-color: aqua; */
+}
+
+.row2 {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  /* background-color: lightcoral; */
+}
+
+.row3 {
+  display: flex;
+  gap: 10px;
+  /* background-color: lightgreen; */
+}
+
+.box {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06);
+  width: 100px;
+  height: 100px;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: brown;
+}
+
+main {
+  width: 500px;
+  margin-left: 550px;
+  margin-top: 150px;
+}
+body {
+  background: linear-gradient(
+    to bottom right,
+    #3b82f6,
+    #9333ea
+  ); /* Modern gradient */
+  color: white; /* For contrast */
+  font-family: "Arial", sans-serif;
+}
+
+.inputcontainer {
+  display: flex;
+  justify-content: space-around;
+
+  margin-bottom: 20px;
+  margin-right: 195px;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+
+  /* Padding and Size */
+  padding: 10px 15px;
+  width: 300px;
+
+  /* Shadow for Depth */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  /* Transition for Smooth Hover Effect */
+  transition: box-shadow 0.3s ease-in-out;
+}
+.inputcontainer input {
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+.inputcontainer:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+.info {
+  color: rgb(22, 20, 20);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-decoration: dotted;
+  margin-right: 200px;
+  margin-bottom: 40px;
+}
+.result {
+  color: rgb(19, 17, 18);
+}
+.bottom {
+  width: 300px;
+  display: flex;
+  justify-content: start;
+}
+.reset {
+  border-radius: 20px;
+  margin-left: 100px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  scroll-behavior: smooth;
+  color: cyan;
+}
+.starting {
+  padding-left: 30px;
+  margin-bottom: 50px;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #3b82f6; /* Light blue */
+  color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.title {
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: bold;
+}
+body.dark-mode {
+  background: #1e1e1e; /* Replace gradient with solid color */
+  color: #f3f4f6; /* Light gray text */
+}
+
+/* Header Dark Mode Adaptation */
+body.dark-mode .header {
+  background-color: #374151; /* Darker gray header */
+}
+
+body.dark-mode .dark-mode-toggle {
+  background-color: #f3f4f6; /* Light gray button background */
+  color: #1e1e1e; /* Dark gray button text */
+}
+.info-dark {
+  color: crimson;
+}
